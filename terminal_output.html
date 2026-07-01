@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>终端运行结果</title>
+<style>
+body { background: #1e1e1e; color: #d4d4d4; font-family: Consolas, monospace; padding: 20px; }
+pre { white-space: pre-wrap; font-size: 14px; line-height: 1.5; }
+.green { color: #4ec9b0; }
+.yellow { color: #dcdcaa; }
+.red { color: #f44747; }
+.blue { color: #569cd6; }
+</style></head><body>
+<pre>
+<span class="green">============================================================</span>
+<span class="yellow">  客服自动回复质量评估系统</span>
+<span class="green">  评估模式: Mock</span>
+<span class="green">============================================================</span>
+
+<span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span>
+          客服自动回复质量评估报告
+<span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span>
+
+<span class="blue">【</span>一、整体得分<span class="blue">】</span>
+  综合加权得分: 3.53 / 5.00
+  准确性均分:   3.95 / 5.00
+  完整性均分:   3.15 / 5.00
+  语气得体均分: 3.40 / 5.00
+
+<span class="blue">【</span>二、各指标得分分布<span class="blue">】</span>
+
+  回复准确性（权重 40%）:
+    5分: ██████ (6条)
+    4分: ██████████ (10条)
+    3分: ██ (2条)
+    2分: █ (1条)
+    1分: █ (1条)
+
+  回复完整性（权重 35%）:
+    5分: ██ (2条)
+    4分: ███████ (7条)
+    3分: █████ (5条)
+    2分: ████ (4条)
+    1分: ██ (2条)
+
+  语气得体性（权重 25%）:
+    5分: ███ (3条)
+    4分: ███████ (7条)
+    3分: ██████ (6条)
+    2分: ███ (3条)
+    1分: █ (1条)
+
+<span class="blue">【</span>三、最差 3 条 Case 分析<span class="blue">】</span>
+
+  --- 第 1 差 (ID: 14) ---
+  用户问题: 怎么注册会员？有什么好处？
+  自动回复: 您好。
+  得分: 准确性<span class="green">=</span>1, 完整性<span class="green">=</span>1, 语气<span class="green">=</span>1
+  加权得分: 1.00
+  问题: 回复只有'您好'，完全无效, 零信息量
+  建议: 需要重新生成，必须包含注册流程和会员权益
+  参考回复: 您好！注册会员很简单：
+1. 点击APP/小程序首页'会员中心'
+2. 手机号验证即可免费注册
+
+会员权益包括：
+- 专属折扣价
+- 积分抵现
+- 生日礼券
+- 优先发货
+- 专属客服
+
+现在注册还可...
+
+  --- 第 2 差 (ID: 9) ---
+  用户问题: 这个颜色还有货吗？
+  自动回复: 您好，请问您要哪个颜色呢？
+  得分: 准确性<span class="green">=</span>2, 完整性<span class="green">=</span>1, 语气<span class="green">=</span>2
+  加权得分: 1.65
+  问题: 未提供任何有效信息, 反问式回复显得敷衍
+  建议: 应列出所有可选颜色及库存情况
+  参考回复: 您好！这款商品目前有黑色、白色、蓝色三种颜色在售，库存都比较充足。您想要哪个颜色呢？我可以帮您确认一下具体库存情况~...
+
+  --- 第 3 差 (ID: 12) ---
+  用户问题: 我的优惠券用不了，显示已过期
+  自动回复: 您好，请检查优惠券的使用条件和有效期。如果有问题请联系客服。
+  得分: 准确性<span class="green">=</span>3, 完整性<span class="green">=</span>2, 语气<span class="green">=</span>2
+  加权得分: 2.40
+  问题: 回复过于简单, 未分析可能原因
+  建议: 分析可能的原因并提供排查建议
+  参考回复: 您好！优惠券显示过期可能有以下原因：
+1. 已超过有效期
+2. 不满足使用门槛（如满减条件）
+3. 不适用于当前商品类目
+
+请您看一下优惠券详情页的具体说明。如果确认没有问题但仍无法使用，可以截图发给...
+
+<span class="blue">【</span>四、质量等级分布<span class="blue">】</span>
+  优秀 (≥4.5): 3 条
+  良好 (3.5-4.5): 7 条
+  一般 (2.5-3.5): 7 条
+  较差 (<2.5): 3 条
+
+<span class="blue">【</span>五、结论与建议<span class="blue">】</span>
+  整体质量中等，建议重点改进低分回复的完整性和语气。
+
+<span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span><span class="green">=</span>
+</pre></body></html>
