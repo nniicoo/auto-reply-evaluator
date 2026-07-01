@@ -1,0 +1,300 @@
+[
+  {
+    "id": 1,
+    "user_query": "我的订单什么时候能到？已经等了三天了",
+    "auto_reply": "您好，订单物流信息可以在'我的订单'页面查看。一般发货后3-5天到达。",
+    "scores": {
+      "accuracy": 4,
+      "completeness": 3,
+      "tone": 3
+    },
+    "weighted_score": 3.4,
+    "issues": [
+      "缺少主动查询承诺"
+    ],
+    "suggestion": "增加主动帮用户查询物流的承诺"
+  },
+  {
+    "id": 2,
+    "user_query": "这个产品有保修吗？保修多久？",
+    "auto_reply": "有的，我们提供一年质保。",
+    "scores": {
+      "accuracy": 4,
+      "completeness": 2,
+      "tone": 3
+    },
+    "weighted_score": 3.05,
+    "issues": [
+      "未说明保修范围和条件"
+    ],
+    "suggestion": "补充保修范围、保修条件等信息"
+  },
+  {
+    "id": 3,
+    "user_query": "我想退货，怎么操作？",
+    "auto_reply": "您好，您可以在订单详情页点击'申请退货'，填写退货原因后提交，我们会在1-3个工作日内审核。",
+    "scores": {
+      "accuracy": 5,
+      "completeness": 5,
+      "tone": 5
+    },
+    "weighted_score": 5.0,
+    "issues": [],
+    "suggestion": "保持当前水平"
+  },
+  {
+    "id": 4,
+    "user_query": "你们的发货地在哪里？用什么快递？",
+    "auto_reply": "我们在全国有多个仓库，会根据您的收货地址就近发货。常用快递包括顺丰、中通、圆通等。",
+    "scores": {
+      "accuracy": 4,
+      "completeness": 4,
+      "tone": 4
+    },
+    "weighted_score": 4.0,
+    "issues": [
+      "可补充仓库具体城市"
+    ],
+    "suggestion": "增加具体仓库城市信息"
+  },
+  {
+    "id": 5,
+    "user_query": "这个商品支持分期付款吗？",
+    "auto_reply": "支持的，您可以选择花呗分期或信用卡分期。",
+    "scores": {
+      "accuracy": 4,
+      "completeness": 3,
+      "tone": 3
+    },
+    "weighted_score": 3.4,
+    "issues": [
+      "未说明分期期数和免息活动"
+    ],
+    "suggestion": "补充分期期数和免息活动信息"
+  },
+  {
+    "id": 6,
+    "user_query": "我买的东西有质量问题，少了一个配件",
+    "auto_reply": "非常抱歉给您带来不便。请您拍照发给我们，我们会尽快为您补发配件。",
+    "scores": {
+      "accuracy": 5,
+      "completeness": 4,
+      "tone": 5
+    },
+    "weighted_score": 4.65,
+    "issues": [
+      "可补充运费承担说明"
+    ],
+    "suggestion": "主动说明补发运费由商家承担"
+  },
+  {
+    "id": 7,
+    "user_query": "能便宜点吗？有优惠券吗？",
+    "auto_reply": "您好，当前价格已经是优惠价了。您可以关注我们的店铺领取不定期优惠券。",
+    "scores": {
+      "accuracy": 4,
+      "completeness": 4,
+      "tone": 4
+    },
+    "weighted_score": 4.0,
+    "issues": [],
+    "suggestion": "保持当前水平"
+  },
+  {
+    "id": 8,
+    "user_query": "我想修改收货地址，已经下单了",
+    "auto_reply": "如果订单还未发货，可以在订单详情页修改地址。如果已发货，建议联系快递公司转寄。",
+    "scores": {
+      "accuracy": 5,
+      "completeness": 4,
+      "tone": 4
+    },
+    "weighted_score": 4.4,
+    "issues": [
+      "可主动询问订单状态"
+    ],
+    "suggestion": "主动询问用户订单状态以便提供针对性建议"
+  },
+  {
+    "id": 9,
+    "user_query": "这个颜色还有货吗？",
+    "auto_reply": "您好，请问您要哪个颜色呢？",
+    "scores": {
+      "accuracy": 2,
+      "completeness": 1,
+      "tone": 2
+    },
+    "weighted_score": 1.65,
+    "issues": [
+      "未提供任何有效信息",
+      "反问式回复显得敷衍"
+    ],
+    "suggestion": "应列出所有可选颜色及库存情况"
+  },
+  {
+    "id": 10,
+    "user_query": "你们周末发货吗？",
+    "auto_reply": "我们仓库周一到周六正常发货，周日休息。周六的订单可能顺延到周一处理。",
+    "scores": {
+      "accuracy": 5,
+      "completeness": 4,
+      "tone": 4
+    },
+    "weighted_score": 4.4,
+    "issues": [
+      "可补充具体发货时间节点"
+    ],
+    "suggestion": "补充每天的发货截止时间"
+  },
+  {
+    "id": 11,
+    "user_query": "发票怎么开？",
+    "auto_reply": "下单时可以选择开具电子发票，也可以在订单完成后联系客服补开。",
+    "scores": {
+      "accuracy": 5,
+      "completeness": 4,
+      "tone": 4
+    },
+    "weighted_score": 4.4,
+    "issues": [
+      "可补充发票类型说明"
+    ],
+    "suggestion": "补充支持的发票类型"
+  },
+  {
+    "id": 12,
+    "user_query": "我的优惠券用不了，显示已过期",
+    "auto_reply": "您好，请检查优惠券的使用条件和有效期。如果有问题请联系客服。",
+    "scores": {
+      "accuracy": 3,
+      "completeness": 2,
+      "tone": 2
+    },
+    "weighted_score": 2.4,
+    "issues": [
+      "回复过于简单",
+      "未分析可能原因"
+    ],
+    "suggestion": "分析可能的原因并提供排查建议"
+  },
+  {
+    "id": 13,
+    "user_query": "产品尺寸和描述不符",
+    "auto_reply": "很抱歉给您带来困扰。请您提供一下实物照片，我们会核实并为您处理。",
+    "scores": {
+      "accuracy": 4,
+      "completeness": 3,
+      "tone": 4
+    },
+    "weighted_score": 3.65,
+    "issues": [
+      "未说明需要提供哪些材料"
+    ],
+    "suggestion": "列出需要用户提供的具体材料"
+  },
+  {
+    "id": 14,
+    "user_query": "怎么注册会员？有什么好处？",
+    "auto_reply": "您好。",
+    "scores": {
+      "accuracy": 1,
+      "completeness": 1,
+      "tone": 1
+    },
+    "weighted_score": 1.0,
+    "issues": [
+      "回复只有'您好'，完全无效",
+      "零信息量"
+    ],
+    "suggestion": "需要重新生成，必须包含注册流程和会员权益"
+  },
+  {
+    "id": 15,
+    "user_query": "我要投诉！快递把我东西弄丢了",
+    "auto_reply": "非常抱歉听到这个情况。请您提供订单号，我们会立即联系快递公司核实，并为您安排补发或退款。",
+    "scores": {
+      "accuracy": 5,
+      "completeness": 5,
+      "tone": 5
+    },
+    "weighted_score": 5.0,
+    "issues": [],
+    "suggestion": "保持当前水平"
+  },
+  {
+    "id": 16,
+    "user_query": "这个商品和图片上的一样吗？",
+    "auto_reply": "我们的商品都是实物拍摄，由于显示器色差可能存在轻微差异，以实物为准。",
+    "scores": {
+      "accuracy": 4,
+      "completeness": 4,
+      "tone": 4
+    },
+    "weighted_score": 4.0,
+    "issues": [],
+    "suggestion": "保持当前水平"
+  },
+  {
+    "id": 17,
+    "user_query": "能货到付款吗？",
+    "auto_reply": "不支持。",
+    "scores": {
+      "accuracy": 4,
+      "completeness": 2,
+      "tone": 2
+    },
+    "weighted_score": 2.8,
+    "issues": [
+      "回复过于生硬",
+      "未提供替代支付方式"
+    ],
+    "suggestion": "补充支持的支付方式，语气更友好"
+  },
+  {
+    "id": 18,
+    "user_query": "我买的东西还没发货，催一下",
+    "auto_reply": "您的订单正在加急处理中，预计今天内发出，请您耐心等待。",
+    "scores": {
+      "accuracy": 3,
+      "completeness": 2,
+      "tone": 3
+    },
+    "weighted_score": 2.65,
+    "issues": [
+      "空洞承诺可能无法兑现",
+      "缺少具体订单状态"
+    ],
+    "suggestion": "查询实际订单状态后再回复，避免空承诺"
+  },
+  {
+    "id": 19,
+    "user_query": "你们卖的是正品吗？有授权吗？",
+    "auto_reply": "我们是品牌官方授权店铺，所有商品均为正品，支持专柜验货。",
+    "scores": {
+      "accuracy": 4,
+      "completeness": 3,
+      "tone": 3
+    },
+    "weighted_score": 3.4,
+    "issues": [
+      "未提供正品验证方式"
+    ],
+    "suggestion": "补充防伪查询、专柜验货等验证方式"
+  },
+  {
+    "id": 20,
+    "user_query": "我想退款，但是客服一直不理我",
+    "auto_reply": "您好，您可以在订单页面自助申请退款，系统会自动处理。如果需要人工协助，请拨打客服热线400-xxx-xxxx。",
+    "scores": {
+      "accuracy": 4,
+      "completeness": 3,
+      "tone": 3
+    },
+    "weighted_score": 3.4,
+    "issues": [
+      "缺少具体退款流程说明",
+      "推卸感较强"
+    ],
+    "suggestion": "提供详细退款流程，主动提出代为处理"
+  }
+]
